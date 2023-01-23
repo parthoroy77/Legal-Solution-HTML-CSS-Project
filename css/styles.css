@@ -21,3 +21,15 @@
     height: 500px;
     border-radius: 10px;
 }
+.accordion-bg{
+    background: #F3F3F3;
+    border-radius: 8px;
+}
+/* .faq-bg{
+    height: 570px;
+    background-image: url(../images/Framee.png);
+    width: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    object-fit: cover;
+} */
