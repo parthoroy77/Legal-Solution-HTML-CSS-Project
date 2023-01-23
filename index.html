@@ -1,16 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment-3</title>
     <!-- Bootstrap Css File -->
-    <link rel="stylesheet" href="./css/bootstrap.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <!-- Extra Css file -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/8bd64d5546.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Open+Sans:wght@500&family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="container">
+    <header>
+      <!-- nav section -->
+      <nav class="navbar navbar-expand-lg my-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/Group 2.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="#">
+                  Services <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="#">
+                  Cases <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="#">
+                  Blog <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="#">
+                  Contact Us <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </li>
+            </ul>
+            <!-- Button with modal -->
+              <button type="button" class="btn btn-primary px-4 py-2 rounded-3 fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Free Consultation
+              </button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Greetings Everyone</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Hi Sir, 
+                      I am Partho and here is my Assignment 3
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </nav>
+      <!-- Banner section  -->
+    </header>
     <!-- Bootstrap Js -->
     <script src="./js/bootstrap.js"></script>
-</body>
+  </body>
 </html>
