@@ -33,3 +33,14 @@
     background-repeat: no-repeat;
     object-fit: cover;
 } */
+.contact-section-bg{
+    background-color: #f3f3f3;
+}
+.form-input{
+    height: 50px;
+    width: 100%;
+    border: none;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
