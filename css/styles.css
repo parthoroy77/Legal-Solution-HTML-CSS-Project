@@ -17,3 +17,7 @@
 .legal-section:hover{
     background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
 }
+.carousel-img{
+    height: 500px;
+    border-radius: 10px;
+}
